@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.example.MainActivity">
+    tools:context="com.example.ScreenThree">
 
     <TextView
         android:id="@+id/text_view"
-        android:text="Content of main screen goes here"
+        android:text="Content of screen 3 goes here"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp" />

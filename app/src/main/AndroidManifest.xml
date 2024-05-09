@@ -8,12 +8,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:parentActivityName=".MainActivity"
+            android:name=".ScreenOne">
+        </activity>
+
+        <activity android:parentActivityName=".MainActivity"
+            android:name=".ScreenTwo">
+        </activity>
+
+        <activity android:parentActivityName=".MainActivity"
+            android:name=".ScreenThree">
         </activity>
     </application>
 
